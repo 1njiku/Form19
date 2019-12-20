@@ -1,0 +1,76 @@
+body{
+    margin: 10px;
+    background-color: rgb(251, 252, 239);
+  }
+  
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #faf7dc;
+    padding: 10px;
+  }
+  
+#description{
+      text-align: center;
+      background-color: rgb(238, 238, 224);
+      padding: 10px;
+  }
+
+  #surveyform{
+    border: 2px double salmon;
+    margin: 10px auto;
+    
+  }
+
+#name-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#email-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#number-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#gender-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#avail-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#in-conlabel{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#love-label{
+    border: 2px solid lightsalmon;
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#submit{
+    text-align: center;
+}

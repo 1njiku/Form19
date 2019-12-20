@@ -1,0 +1,93 @@
+<!doctypeHTML>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link href="resources/css/style.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+    <div id="title">   
+    <h1>Survey Form</h1>
+      <h2 id="description">Please fill this form out to help us guide our <strong>in</strong>-decisions!</h2>
+    </header>
+    <div>
+      <form id="survey-form">
+
+        <div id="name-label">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="First & Last Name" required>
+        </div>
+
+        <br>
+
+        <div id="email-label">
+        <label id="email-label" for="email">e-Mail</label>
+        <input type="email" id="email" placeholder="Valid email" required>
+        </div>
+
+        <br>
+
+        <div id="number-label">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number-label" min="1" max="150" placeholder="in years" required>
+        </div>
+
+        <br>
+
+        <div id="gender-label">
+        <p>Preferred Gender</p>
+        <label for="Male">Male</label>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="Unspecified">Prefer not to indicate</label>
+        <input type="radio" id="Unspecified" name="gender" value="Unspecified">
+        </div>
+
+        <br>
+        <br>
+
+        <div id="avail-label"> 
+        <label for="availability">What is your availability?</label>
+        <select id="availability" name="availability">
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="in-conlabel">
+        <p>Most <strong><em>in-convenient</em></strong> way to reach me? Check all that apply...(seriously)</p>
+        <label for="mail">Snail-mail</label>
+        <input type="checkbox" value="mail" id="mail">
+        <label for="telephone-call">Telephone Call</label>
+        <input type="checkbox" value="telephone-call" id="telephone-call">
+        <label for="smokesignals">Smoke Signals</label>
+        <input type="checkbox" id="smokesignals" value="smokesignals">
+        </div>
+
+        <br>
+        <br>
+
+        <div id="love-label">
+        <label for="love">Please write us a love-letter \0/ </label>
+        <textarea id="love" name="love" rows="5" cols="30" placeholder="Oh let me count the ways">
+          </textarea>
+        </div>
+
+        <br>
+          <br>
+        <div id="submit">
+          <input id="submit" type="submit">
+        </div>
+        
+        
+      </form>
+    </div>
+  </body>
+  
+</html>
